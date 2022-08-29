@@ -79,7 +79,7 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 HELP_4 = """✅<u>**Extra  Commands:**</u>
 /mstart - Mulai Bot Musik.
 /mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
-/mping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/sempak- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
 ✅<u>**Group Settings:**</u>
 /msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
@@ -121,8 +121,8 @@ HELP_5 = """🔰TAMBAH & HAPUS PENGGUNA SUDO :
 /set_var [Var Name] [Value] - Atur Var atau Perbarui Var di heroku atau .env.  Pisahkan Var dan Nilainya dengan spasi.
 
 PERINTAH BOT:
-/reboot - Nyalakan ulang Bot Anda.
-/update - Perbarui Bot.
+/mreboot - Nyalakan ulang Bot Anda.
+/mupdate - Perbarui Bot.
 /speedtest - Periksa kecepatan server
 /maintenance [Enable / Disable]
 /logger [Enable / Disable] - Bot mencatat kueri yang dicari di grup logger.
@@ -130,19 +130,19 @@ PERINTAH BOT:
 /autoend [enable|disable] - Aktifkan Auto stream end setelah 3 menit jika tidak ada yang mendengarkan.
 
 📈**<u>STATS COMMANDS:</u>**
-/vcs - Periksa obrolan suara aktif di bot.
-/vcv - Periksa panggilan video aktif di bot.
+/os - Periksa obrolan suara aktif di bot.
+/vcs - Periksa panggilan video aktif di bot.
 /gstats - Periksa Statistik Bot
 
 ⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+/mblacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
+/mwhitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
+/mblacklistedchat - Check all blacklisted chats.
 
 👤**<u>FUNGSI BLACKLIST CHAT:**
-/blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
-/whitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
-/blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
+/mblacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
+/mwhitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
+/mblacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
 
 FUNGSI TERBLOKIR:
 /block [Nama Pengguna atau Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
@@ -150,9 +150,9 @@ FUNGSI TERBLOKIR:
 /blockedusers - Periksa Daftar Pengguna yang diblokir
 
 FUNGSI GBAN:
-/mgban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
-/mungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
-/mgbannedusers - Periksa Daftar Pengguna Gbanned
+/gban [Nama Pengguna atau Balas ke pengguna] - Gban pengguna dari obrolan yang dilayani bot dan hentikan dia menggunakan bot Anda.
+/ungban [Nama Pengguna atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
+/gbannedusers - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>FUNGSI VIDEOCALL:**
 /set_video_limit [Jumlah Obrolan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu.  Default untuk 3 obrolan.
@@ -164,7 +164,7 @@ FUNGSI BOT SWASTA:
 /authorized - Periksa semua obrolan bot Anda yang diizinkan.
 
 FUNGSI PENYIARAN:
-/gcast [Pesan atau Balas Pesan] - Menyiarkan pesan apa pun ke Obrolan yang Dilayani Bot.
+/mbroadcast [Pesan atau Balas Pesan] - Menyiarkan pesan apa pun ke Obrolan yang Dilayani Bot.
 
 <u>opsi untuk siaran:
 -pin : Ini akan menyematkan pesan Anda
