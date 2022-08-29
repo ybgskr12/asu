@@ -11,7 +11,7 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["mping"]
+PING_COMMAND : ["sempak"]
 START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["msettings", "msetting"]
@@ -57,15 +57,15 @@ RESTART_COMMAND : ["restart"]
 # Sudo Command
 ADDSUDO_COMMAND : ["maddsudo"]
 DELSUDO_COMMAND : ["mdelsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["msudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["gcast"]
+BROADCAST_COMMAND : ["mbroadcast"]
 
 #Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat"]
-WHITELISTCHAT_COMMAND : ["whitelistchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
+BLACKLISTCHAT_COMMAND : ["mblacklistchat"]
+WHITELISTCHAT_COMMAND : ["mwhitelistchat"]
+BLACKLISTEDCHAT_COMMAND : ["mblacklistedchat"]
 
 # Video Calls Command
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
@@ -85,8 +85,8 @@ VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+UPDATE_COMMAND : ["mupdate"]
+REBOOT_COMMAND : ["mreboot"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
@@ -103,10 +103,10 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["vcs"]
-ACTIVEVIDEO_COMMAND : ["vcv"]
+ACTIVEVC_COMMAND : ["os"]
+ACTIVEVIDEO_COMMAND : ["vcs"]
 
 #Gban Commands
-GBAN_COMMAND : ["mgban"]
-UNGBAN_COMMAND : ["mungban"]
-GBANNED_COMMAND : ["mgbannedusers"]
+GBAN_COMMAND : ["gban"]
+UNGBAN_COMMAND : ["ungban"]
+GBANNED_COMMAND : ["gbannedusers"]
