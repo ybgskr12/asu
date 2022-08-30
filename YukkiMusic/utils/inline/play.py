@@ -62,9 +62,19 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_9"], url=f"https://t.me/loveisfuckedup",
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_9"], url=f"https://t.me/ybgskr_ex",
+            ),
+        ],
+        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            ),
+)
         ],
     ]
     return buttons
