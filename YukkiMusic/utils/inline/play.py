@@ -9,6 +9,7 @@
 import random
 from pyrogram.types import InlineKeyboardButton
 
+
 def stream_markup_timer(_, videoid, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
@@ -28,6 +29,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
     ]
     return buttons
+
+
 def telegram_markup_timer(_, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
@@ -42,6 +45,8 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
     ]
     return buttons
+
+
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
         [
@@ -62,6 +67,8 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
     ]
     return buttons
+
+
 def stream_markup(_, videoid, chat_id):
     buttons = [
         [
@@ -84,6 +91,8 @@ def stream_markup(_, videoid, chat_id):
         ],
     ]
     return buttons
+
+
 def telegram_markup(_, chat_id):
     buttons = [
         [
@@ -96,6 +105,8 @@ def telegram_markup(_, chat_id):
         ],
     ]
     return buttons
+
+
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
