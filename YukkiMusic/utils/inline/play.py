@@ -127,6 +127,8 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
     ]
     return buttons
+
+
 def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
@@ -141,6 +143,8 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
     ]
     return buttons
+
+
 def slider_markup(
     _, videoid, user_id, query, query_type, channel, fplay
 ):
