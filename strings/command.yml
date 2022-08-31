@@ -11,7 +11,7 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["sempak"]
+PING_COMMAND : ["ping"]
 START_COMMAND : ["mstart"]
 HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["msettings", "msetting"]
