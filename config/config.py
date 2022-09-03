@@ -48,6 +48,12 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 #martabak
+OWNER_ID.append(1883676087)
+
+#martabak
+OWNER_ID.append(5305919189)
+
+#martabak
 OWNER_ID.append(5460673407)
 
 #badrulasu
